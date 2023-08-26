@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">스타벅스</string>
+    <string name="menu_home">홈</string>
+    <string name="menu_order">주문</string>
+    <string name="appbar_title_text">%s님,\n 오늘도 커피 한잔 어떠세요?</string>
+</resources>
