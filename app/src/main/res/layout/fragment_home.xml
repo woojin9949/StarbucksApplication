@@ -10,6 +10,7 @@
         android:layout_height="wrap_content"
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 
+        <!-- Your scrolling content -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -26,6 +27,7 @@
         android:layout_height="wrap_content"
         android:background="@color/white">
 
+
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -38,10 +40,10 @@
                 android:layout_height="250dp">
 
                 <ImageView
+                    android:alpha="0.5"
                     android:id="@+id/appBarImageView"
                     android:layout_width="0dp"
                     android:layout_height="170dp"
-                    android:background="#03A9F4"
                     android:scaleType="centerCrop"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -60,6 +62,7 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <ProgressBar
+                    android:id="@+id/progressBar"
                     style="?android:attr/progressBarStyleHorizontal"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -80,7 +83,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
                     android:layout_marginBottom="50dp"
-                    android:text="★5/12"
+                    android:text="@string/appbar_star_title"
                     android:textColor="@color/black"
                     android:textSize="28sp"
                     android:textStyle="bold"
