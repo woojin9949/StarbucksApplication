@@ -37,16 +37,8 @@
             android:paddingStart="20dp"
             android:paddingEnd="20dp"
             tools:layout_height="200dp"
-            tools:layout_width="200dp">
+            tools:layout_width="200dp" />
 
-            <woojin.projects.starbucksapplication.MenuView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:imageUrl="https://picsum.photos/100/100"
-                app:title="아이스 카페라떼" />
-
-
-        </LinearLayout>
     </HorizontalScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

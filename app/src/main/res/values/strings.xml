@@ -5,4 +5,7 @@
     <string name="appbar_title_text">%s님,\n 오늘도 커피 한잔 어떠세요?</string>
     <string name="appbar_star_title">★%d/%d</string>
     <string name="recommend_menu">%s님을 위한 추천메뉴</string>
+    <string name="food_menu_title">곁들여 먹을만한 메뉴</string>
+    <string name="delivery">DELEVERY</string>
+    <string name="description_delivery">주문하기</string>
 </resources>
